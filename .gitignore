@@ -1,0 +1,57 @@
+# Compiled Object files, Static and Dynamic libs (Shared Objects)
+*.o
+*.a
+*.so
+*.dylib
+
+# Folders
+_obj
+_test
+
+# Node Modules
+node_modules
+
+# Architecture specific extensions/prefixes
+*.[568vq]
+[568vq].out
+.DS_Store
+.vscode/
+.idea/
+
+*.cgo1.go
+*.cgo2.c
+_cgo_defun.c
+_cgo_gotypes.go
+_cgo_export.*
+
+_testmain.go
+
+phishcraft_admin.crt
+phishcraft_admin.key
+gophish_admin.crt
+gophish_admin.key
+*.crt
+*.key
+*.pem
+*.p12
+*.pfx
+
+# Runtime state
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+*.log
+*.pid
+*.tmp
+
+# Local environment/secrets
+.env
+.env.*
+!.env.example
+
+*.exe
+phishcraft.db*
+gophish.db*
+phishcraft
+gophish
